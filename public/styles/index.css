@@ -1,0 +1,91 @@
+body{
+    background-color: #FBF3D5;
+    text-align: center;
+}
+div{
+    background-color: black;
+    width: 18px;
+    height: 24px;
+    position: absolute;
+    border-radius: 100%;
+    top: 150px;
+    will-change: transform, top, left, height, width, border-radius;
+}
+.one{
+    animation: animate 6s ease-out infinite;
+}
+.two{
+    animation: animate2 6s ease-out infinite;
+}
+
+@keyframes animate{
+    0%{left: 47.5%;}
+    20%{left: 46.8%;}
+    25%{left: 46.8%;}
+    60%{left: 48%;}
+    65%{left: 48%;}
+    80%{
+        left: 47.5%;
+        top: 150px;
+        height: 24px;
+        width: 18px;
+        border-radius: 100%;
+    }
+    100%{
+        left: 47.5%;
+        top: 158px;
+        height: 4px;
+        width: 24px;
+        border-radius: 0%;
+    }
+}
+@keyframes animate2{
+    0%{left: 51%;}
+    20%{left: 50.3%;}
+    25%{left: 50.3%;}
+    60%{left: 51.4%;}
+    65%{left: 51.4%;}
+    80%{
+        left: 51%;
+        top: 150px;
+        height: 24px;
+        width: 18px;
+        border-radius: 100%;
+    }
+    /* 95%{height: 4px;} */
+    100%{
+        left: 51%;
+        top: 158px;
+        height: 4px;
+        width: 24px;
+        border-radius: 0%;
+    }
+}
+
+.one{
+    left: 51.5%;
+}
+img{
+    width: 160px;
+    height: 200px;
+    margin: 100px auto 40px;
+}
+h1{
+    font-family: "lobster", serif;
+    font-weight: 800;
+    font-size: 4rem;
+    color: #455638 ;
+}
+h2{
+    font-family: "Montserrat",serif;
+    font-weight: 800;
+    font-size: 2.5 rem;
+    margin: 20px;
+    color: #688254;
+}
+.btn{
+    margin: 40px auto auto;
+    /* width: 20%; */
+    background-color: #247727;
+    padding: 0.5% 6%;
+}

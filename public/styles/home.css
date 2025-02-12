@@ -1,0 +1,86 @@
+body{
+    background-color: #dfca91;
+    text-align: center;
+}
+h5,h6{
+    font-family: "lobster";
+    font-size: 2rem;
+    color: #272523;
+}
+h5{
+    border-bottom: 1px solid grey;
+}
+h6{
+    font-size: 1.5rem;
+}
+p{
+    margin: 12px;
+    color: #3f3831;
+}
+h1{
+    margin: 2%;
+    font-family:  cursive,serif;
+    font-weight: 700;
+    color: #4a4439;
+}
+
+ /* navbar */
+
+.navbar{
+    padding: 0;
+}
+.navbar-brand{
+    font-family: "lobster",serif;
+    font-weight: 500;
+    font-size: 2rem;
+    padding-left: 2% ;
+    color: #faf8f4;
+}
+.container-fluid{
+    background-color: #c0b083;
+    padding: 0.5%;
+}
+.d-flex{
+    padding-right: 1%;
+    width: 27%;
+    margin: 0 0 0 auto;
+}
+.me-2{
+    background-color: #faf8f4;
+}
+
+/* body */
+.col1{
+    padding: 2% 4%;
+}
+.card{
+    width: 16rem;
+    height: 18rem;
+    background-color: #faf8f4;
+}
+.dropdown-toggle{
+    position: absolute;
+    right: 6%;
+    z-index: 1;
+}
+.del{
+    color: red;
+}
+.edi{
+    color: black;
+}
+.date{
+    position: absolute;
+    bottom: 0;
+    right: 4% ;
+}
+#save{
+   display: none;
+}
+.modal-dialog{
+    max-width: 60%;
+    text-align: center;
+}
+#he1,#he2,#he3{
+    word-wrap: break-word;
+}

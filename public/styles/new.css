@@ -1,0 +1,81 @@
+body {
+    background-color: #dfca91;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #3e3e3e;
+    margin: 0;
+    padding: 0;
+}
+
+
+ /* navbar */
+ .navbar{
+    padding: 0;
+}
+.navbar-brand{
+    font-family: "lobster",serif;
+    font-weight: 500;
+    font-size: 2rem;
+    padding-left: 2% ;
+    color: #faf8f4;
+}
+.container-fluid{
+    background-color: #c0b083;
+    padding: 0.5%;
+}
+
+/* Form */
+form {
+    max-width: 600px;
+    margin: 2rem auto;
+    background-color: #faf8f4;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.mb-3 label {
+    font-weight: bold;
+    color: #5b4d2c;
+}
+
+.mb-3 input {
+    border: 1px solid #a8956b;
+    border-radius: 5px;
+    padding: 0.5rem;
+    font-size: 1rem;
+    color: #3e3e3e;
+    background-color: #fffdf4;
+}
+
+.mb-3 input::placeholder {
+    color: #a8956b;
+}
+
+.mb-3 input:focus {
+    outline: none;
+    border-color: #c0b083;
+    box-shadow: 0 0 5px rgba(192, 176, 131, 0.5);
+}
+.form-control{
+    height: 40px;
+}
+.content{
+    height: 200px;
+}
+/* Button */
+.btn-success {
+    border: none;
+    color: #faf8f4;
+    font-weight: bold;
+    padding: 0.5rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-success:hover {
+    background-color: #1c7a24;
+    transform: scale(1.05);
+    cursor: pointer;
+}
