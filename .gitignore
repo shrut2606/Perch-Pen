@@ -30,4 +30,4 @@ package-lock.json
 
 # Database or sensitive JSON files
 notesgit reset
-.json  # Replace with your actual data file name
+notes.json  # Replace with your actual data file name
